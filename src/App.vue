@@ -8,15 +8,13 @@ const mobile = ref();
 </script>
 
 <template>
-  <!-- <User my_name="Kuldeep Kumar" @delete="getName" /> -->
-  <!-- <ServerForm /> -->
+  <User my_name="Kuldeep Kumar" @delete="getName" />
+
   <p>Hello</p>
   <!-- <LoginForm /> -->
   <!-- <PhoneInput name="mobile" v-model="mobile" />
   {{ mobile }} -->
   <LoginForm />
-  <!-- <Field name="mobile" v-slot="{ value, handleChange }">
-  </Field> -->
 </template>
 
 <style scoped>
