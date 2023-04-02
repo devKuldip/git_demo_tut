@@ -8,8 +8,6 @@ const mobile = ref();
 </script>
 
 <template>
-  <User my_name="Kuldeep Kumar" @delete="getName" />
-
   <p>Hello</p>
   <!-- <LoginForm /> -->
   <!-- <PhoneInput name="mobile" v-model="mobile" />
