@@ -3,6 +3,7 @@ import { useForm } from "vee-validate";
 import { onMounted, ref } from "vue";
 import BaseInput from "./BaseInput.vue";
 import PhoneInput from "./PhoneInput.vue";
+import Recaptcha from "./Recaptcha.vue";
 const { handleSubmit } = useForm();
 // const emailInput = ref(null);
 // onMounted(() => {
@@ -35,7 +36,7 @@ const onSubmit = handleSubmit((values, errors) => {
     <BaseInput name="email" />
     <BaseInput name="password" />
     <PhoneInput name="mobile" />
-    <ErrorMessage name="mobile" />
+    <Recaptcha />
     <button type="submit" class="pr_btn">Submit</button>
   </form>
 </template>
